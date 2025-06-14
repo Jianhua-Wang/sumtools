@@ -1,7 +1,7 @@
 [tool]
 [tool.poetry]
 name = "sumtools"
-version = "0.0.3"
+version = "0.0.4"
 homepage = "https://github.com/Jianhua-Wang/sumtools"
 description = "a suite for summary level GWAS downstream analysis."
 authors = ["Jianhua Wang <jianhua.mert@gmail.com>"]
