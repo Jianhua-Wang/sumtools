@@ -45,17 +45,17 @@ plugins:
       lang: en
   - mkdocstrings:
       handlers:
-      python:
-        import:
-        - https://docs.python.org/3/objects.inv
-        - https://installer.readthedocs.io/en/stable/objects.inv  # demonstration purpose in the docs
-        - https://mkdocstrings.github.io/autorefs/objects.inv
-        options:
-          docstring_style: numpy
-          docstring_options:
-            ignore_init_summary: yes
-          merge_init_into_class: yes
-          show_submodules: yes
+        python:
+          import:
+          - https://docs.python.org/3/objects.inv
+          - https://installer.readthedocs.io/en/stable/objects.inv  # demonstration purpose in the docs
+          - https://mkdocstrings.github.io/autorefs/objects.inv
+          options:
+            docstring_style: numpy
+            docstring_options:
+              ignore_init_summary: yes
+            merge_init_into_class: yes
+            show_submodules: yes
       # watch:
       #   - sumtools
 extra:

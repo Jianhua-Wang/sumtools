@@ -1,16 +1,17 @@
 """Console script for sumtools."""
 
-import click
+import typer
+
+app = typer.Typer()
 
 
-@click.command()
+@app.command()
 def main():
-    """Main entrypoint."""
-    click.echo("sumtools")
-    click.echo("=" * len("sumtools"))
-    click.echo("a suite for summary level GWAS downstream analysis")
+    """Run the main CLI command."""
+    typer.echo("sumtools")
+    typer.echo("=" * len("sumtools"))
+    typer.echo("a suite for summary level GWAS downstream analysis")
 
 
 if __name__ == "__main__":
-    main()  # pragma: no cover
-
+    app()  # pragma: no cover

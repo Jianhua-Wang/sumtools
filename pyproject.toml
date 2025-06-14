@@ -6,7 +6,7 @@ homepage = "https://github.com/Jianhua-Wang/sumtools"
 description = "a suite for summary level GWAS downstream analysis."
 authors = ["Jianhua Wang <jianhua.mert@gmail.com>"]
 readme = "README.md"
-license =  "MIT"
+license = "MIT"
 classifiers=[
     'Development Status :: 2 - Pre-Alpha',
     'Intended Audience :: Developers',
@@ -22,9 +22,9 @@ packages = [
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.13"
-click = "8.0.1"
+typer = "^0.9.0"
 
-[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
 black = "^23.9.1"
 isort = "^5.12.0"
 flake8 = "^6.1.0"
@@ -35,7 +35,7 @@ pytest-cov = "^4.1.0"
 tox = "^4.11.3"
 virtualenv = "^20.24.5"
 pip = "^23.2.1"
-twine = "^4.0.2"
+twine = "^6.1.0"
 pre-commit = "^3.4.0"
 toml = "^0.10.2"
 bump2version = "^1.0.1"
